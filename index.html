@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Adil Husain — About Me</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="name">Adil Husain</h1>
+      <p class="tagline">Bachelor of Science student • Learning coding & app development</p>
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="about" class="card">
+      <h2>About Me</h2>
+      <p>Hi, I'm Adil Husain. I'm a Bachelor of Science student and I love learning how to code and build mobile/web apps. I enjoy exploring new programming tools and frameworks and practicing by building small projects.</p>
+    </section>
+
+    <section id="education" class="card">
+      <h2>Education</h2>
+      <ul>
+        <li>Bachelor of Science (B.Sc.) — Current student</li>
+        <li>College / University: [Add your college name]</li>
+        <li>Year: [Add your current year]</li>
+      </ul>
+    </section>
+
+    <section id="skills" class="card">
+      <h2>Skills</h2>
+      <div class="skills-list">
+        <span class="skill">HTML</span>
+        <span class="skill">CSS</span>
+        <span class="skill">JavaScript</span>
+        <span class="skill">React (learning)</span>
+        <span class="skill">Android / Flutter (app development)</span>
+      </div>
+    </section>
+
+    <section id="projects" class="card">
+      <h2>Projects</h2>
+      <p>List your projects here. Examples:</p>
+      <ul>
+        <li>Personal Portfolio Website — HTML/CSS/JS</li>
+        <li>Simple ToDo App — JavaScript / LocalStorage</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="card">
+      <h2>Contact</h2>
+      <p>You can contact me here:</p>
+      <ul>
+        <li>Email: <a href="mailto:adil@example.com">adil@example.com</a> (replace with your email)</li>
+        <li>LinkedIn / GitHub: <a href="#" id="profileLink">Add your profile link</a></li>
+      </ul>
+
+      <form id="messageForm" class="contact-form">
+        <label>
+          Name
+          <input type="text" name="name" id="name" placeholder="Your name" required />
+        </label>
+        <label>
+          Message
+          <textarea name="message" id="message" placeholder="Your message" required></textarea>
+        </label>
+        <button type="submit">Send (local)</button>
+        <p class="form-note">This form saves messages locally in your browser (no server).</p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Adil Husain — Student & Aspiring Developer</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
